@@ -3,7 +3,7 @@ Intelligent Reflecting Surface vs. Decode-and-Forward: How Large Surfaces Are Ne
 
 This is a code package is related to the follow scientific article:
 
-Emil Björnson, Özgecan Özdogan, Erik G. Larsson, “[Intelligent Reflecting Surface vs. Decode-and-Forward: How Large Surfaces Are Needed to Beat Relaying?](https://arxiv.org/pdf/1906.03949),” IEEE Wireless Communications Letters, To appear.
+Emil Björnson, Özgecan Özdogan, Erik G. Larsson, “[Intelligent Reflecting Surface vs. Decode-and-Forward: How Large Surfaces Are Needed to Beat Relaying?](https://arxiv.org/pdf/1906.03949),” IEEE Wireless Communications Letters, vol. 9, no. 2, pp. 244-248, February 2020.
 
 The package contains a simulation environment, based on Matlab, that reproduces some of the numerical results and figures in the article. *We encourage you to also perform reproducible research!*
 
