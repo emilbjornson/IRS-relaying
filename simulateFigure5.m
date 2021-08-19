@@ -95,7 +95,7 @@ for ind = 1:length(Rbar)
     SINR_DF = 2^(2*Rbar(ind))-1; %DF relaying
     
     
-    %Compute the transmit power in the SISO case, using Eq. (11)
+    %Compute the transmit power in the SISO case, using Eq. (17)
     P_SISO = SINR*sigma2/betaSD;
     
     %Compute the energy efficiency in the SISO case
@@ -103,7 +103,7 @@ for ind = 1:length(Rbar)
     EE_SISO(ind) = 1000*B*Rbar(ind)/(P_SISO/nu + Ps + Pd);
     
     
-    %Compute the transmit power in the DF relaying case, using Eq. (14)
+    %Compute the transmit power in the DF relaying case, using Eq. (19)
     P_DF = SINR_DF*sigma2*(betaSR+betaRD-betaSD)/(2*betaRD*betaSR);
     
     %Compute the energy efficiency in the DF relaying case
@@ -118,7 +118,7 @@ for ind = 1:length(Rbar)
         Nopt(ind) = 0;
     end
     
-    %Compute the transmit power in the IRS case, using Eq. (12)
+    %Compute the transmit power in the IRS case, using Eq. (18)
     P_IRS = SINR*sigma2./(sqrt(betaSD) + Nopt(ind)*alpha*sqrt(betaSR*betaRD)).^2;
     
     %Compute the energy efficiency in the IRS case
