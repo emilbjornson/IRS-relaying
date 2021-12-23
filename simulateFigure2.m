@@ -6,7 +6,7 @@
 %
 %Download article: https://arxiv.org/pdf/1906.03949
 %
-%This is version 1.0 (Last edited: 2019-10-28)
+%This is version 1.1 (Last edited: 2021-12-23)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
@@ -25,8 +25,8 @@ fc = 3;
 d = 10:0.1:100;
 
 %Define the antenna gains at the transmitter and receiver
-antennaGainTdBi = db2pow(5);
-antennaGainRdBi = db2pow(5);
+antennaGainTdBi = 5;
+antennaGainRdBi = 5;
 
 %Compute channel gains based on the 3GPP Urban Micro in "Further
 %advancements for E-UTRA physical layer aspects (Release 9)."
