@@ -6,7 +6,7 @@
 %
 %Download article: https://arxiv.org/pdf/1906.03949
 %
-%This is version 1.0 (Last edited: 2019-10-28)
+%This is version 1.1 (Last edited: 2024-07-25)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
@@ -112,7 +112,7 @@ for ind = 1:length(Rbar)
     
     
     %Compute the power-minimizing number of reflecting elements
-    Nopt(ind) = (2*SINR*sigma2/(alpha^2*betaSR*betaRD*Pe))^(1/3) - sqrt(betaSD/(betaSR*betaRD))/alpha;
+    Nopt(ind) = (2*SINR*sigma2/(nu*alpha^2*betaSR*betaRD*Pe))^(1/3) - sqrt(betaSD/(betaSR*betaRD))/alpha;
     
     if Nopt(ind)<0
         Nopt(ind) = 0;
